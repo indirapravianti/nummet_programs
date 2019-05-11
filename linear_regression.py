@@ -31,7 +31,12 @@ def regression(n, x, y):
 
     b = ((n*sumXY) - (sumX * sumY)) / ((n * sumSqX) - (sumX*sumX))
     a = (sumY / n) - ((sumX / n) * b)
+
+    sumError = 0
+    for i in range(n):
+        sumError = ((y[i] - a - b * x[i])**2)
     print("Y = %.3f + %.3fX" % (a, b))
+    print("Sum of error = %.3f" %(sumError))
     
 
 # Welcome Message
