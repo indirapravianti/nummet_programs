@@ -1,3 +1,3 @@
-# Numerical Methods Programs
+# numerical methods programs
 
-Wrote a bunch of numerical methods programs in Python cause too lazy to use calculator.
+wrote a bunch of numerical methods programs in Python cause im too lazy to use calculator.
